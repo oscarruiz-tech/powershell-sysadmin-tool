@@ -3,7 +3,7 @@ do {
     $host.UI.RawUI.WindowTitle = "Oscar's PowerShell Laboratory"
 
     Write-Host "==========================================" -ForegroundColor Cyan
-    Write-Host "      WELCOME TO OSCAR'S LABORATORY      " -ForegroundColor Yellow
+    Write-Host "      SYSTEM ADMINISTRATION TERMINAL     " -ForegroundColor Yellow
     Write-Host "==========================================" -ForegroundColor Cyan
     Write-Host ""
     Write-Host "1. Quick Hardware Information"
