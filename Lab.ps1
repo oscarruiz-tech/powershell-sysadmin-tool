@@ -48,7 +48,7 @@ do {
                 Select-Object ModuleName, @{Name="Path";Expression={$_.FileName}} -First 30 | Format-Table -AutoSize
         }
         "7" {
-            Write-Host "Exiting... Great job today, Oscar!" -ForegroundColor Green
+            Write-Host "Closing application. Goodbye!" -ForegroundColor Green
         }
         Default { 
             Write-Host "Invalid option. Please try again." -ForegroundColor Red 
